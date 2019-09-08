@@ -18,4 +18,8 @@ describe('AgeOnPlanet', function() {
   it('should test the ageOnEarth prototype', function() {
     expect(age.ageOnEarth()).toEqual(30)
   });
+
+  it('should test the ageOnMars prototype', function() {
+    expect(age.ageOnMars()).toEqual(16)
+  });
 });
