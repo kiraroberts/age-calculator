@@ -42,4 +42,8 @@ describe('AgeOnPlanet', function() {
   it('should test the timeLeftOnVenus prototype', function() {
     expect(age.timeLeftOnVenus()).toEqual(81)
   });
+
+  it('should test the timeLeftOnEarth prototype', function() {
+    expect(age.timeLeftOnEarth()).toEqual(50)
+  });
 });
