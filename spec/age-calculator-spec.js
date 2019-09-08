@@ -30,4 +30,8 @@ describe('AgeOnPlanet', function() {
   it('should test the ageOnSaturn prototype', function() {
     expect(age.ageOnSaturn()).toEqual(1)
   });
+
+  it('should test the ageOnUranus prototype', function() {
+    expect(age.ageOnUranus()).toEqual(4)
+  });
 });
