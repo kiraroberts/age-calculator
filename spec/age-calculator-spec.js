@@ -38,4 +38,8 @@ describe('AgeOnPlanet', function() {
   it('should test the timeLeftOnMercury prototype', function() {
     expect(age.timeLeftOnMercury()).toEqual(208)
   });
+
+  it('should test the timeLeftOnVenus prototype', function() {
+    expect(age.timeLeftOnVenus()).toEqual(81)
+  });
 });
