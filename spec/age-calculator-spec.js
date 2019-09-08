@@ -36,6 +36,6 @@ describe('AgeOnPlanet', function() {
   });
 
   it('should test the timeLeftOnMercury prototype', function() {
-    expect(age.timeLeftOnMercury()).toEqual(333)
+    expect(age.timeLeftOnMercury()).toEqual(208)
   });
 });
