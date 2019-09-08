@@ -10,4 +10,8 @@ export class AgeOnPlanet {
   ageOnVenus() {
     return Math.round(this.age/.62)
   }
+
+  ageOnEarth() {
+    return Math.round(this.age)
+  }
 }
