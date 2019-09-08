@@ -14,4 +14,8 @@ export class AgeOnPlanet {
   ageOnEarth() {
     return Math.round(this.age)
   }
+
+  ageOnMars() {
+    return Math.round(this.age/1.88)
+  }
 }
