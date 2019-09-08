@@ -41,4 +41,8 @@ export class AgeOnPlanet {
     const venusAge = Math.round(this.age/0.62);
     return (Math.round(this.lifeExpectancy/0.62)-venusAge);
   }
+
+  timeLeftOnEarth() {
+    return this.lifeExpectancy-this.age;
+  }
 }
