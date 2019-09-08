@@ -22,4 +22,8 @@ describe('AgeOnPlanet', function() {
   it('should test the ageOnMars prototype', function() {
     expect(age.ageOnMars()).toEqual(16)
   });
+
+  it('should test the ageOnJupiter prototype', function() {
+    expect(age.ageOnJupiter()).toEqual(3)
+  });
 });
