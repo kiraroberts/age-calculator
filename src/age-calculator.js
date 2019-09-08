@@ -3,5 +3,7 @@ export class AgeOnPlanet {
     this.age = age;
   }
 
-
+  ageOnMercury() {
+    return this.age/0.24
+  }
 }
