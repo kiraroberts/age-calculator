@@ -1,9 +1,13 @@
 import { AgeOnPlanet } from './../src/age-calculator.js';
 
 describe('AgeOnPlanet', function() {
+  let age;
 
-  it('should test whether the AgeOnPlanet class contains the key value pair of Mercury = .24', function() {
-    let age = new AgeOnPlanet(30);
+  beforeEach(function() {
+    age = new AgeOnPlanet(30);
+  });
+
+  it('should test the ageOnMercury prototype', function() {
     expect(age.ageOnMercury()).toEqual(125)
   });
 });
