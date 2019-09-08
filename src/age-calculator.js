@@ -26,4 +26,8 @@ export class AgeOnPlanet {
   ageOnSaturn() {
     return Math.round(this.age/30)
   }
+
+  ageOnUranus() {
+    return Math.round(12*(this.age/84))
+  }
 }
