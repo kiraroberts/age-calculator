@@ -6,4 +6,5 @@ export class AgeOnPlanet {
   ageOnMercury() {
     return this.age/0.24
   }
+
 }
