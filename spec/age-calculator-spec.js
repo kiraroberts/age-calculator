@@ -4,7 +4,7 @@ describe('AgeOnPlanet', function() {
   let age;
 
   beforeEach(function() {
-    age = new AgeOnPlanet(30);
+    age = new AgeOnPlanet(30, 80);
   });
 
   it('should test the ageOnMercury prototype', function() {
@@ -33,5 +33,9 @@ describe('AgeOnPlanet', function() {
 
   it('should test the ageOnUranus prototype', function() {
     expect(age.ageOnUranus()).toEqual(4)
+  });
+
+  it('should test the timeLeftOnMercury prototype', function() {
+    expect(age.timeLeftOnMercury()).toEqual(333)
   });
 });
