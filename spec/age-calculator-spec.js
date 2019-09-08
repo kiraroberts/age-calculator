@@ -46,4 +46,8 @@ describe('AgeOnPlanet', function() {
   it('should test the timeLeftOnEarth prototype', function() {
     expect(age.timeLeftOnEarth()).toEqual(50)
   });
+
+  it('should test the timeLeftOnMars prototype', function() {
+    expect(age.timeLeftOnMars()).toEqual(27)
+  });
 });
