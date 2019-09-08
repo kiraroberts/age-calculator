@@ -36,4 +36,9 @@ export class AgeOnPlanet {
     const mercuryAge = Math.round(this.age/0.24);
     return (Math.round(this.lifeExpectancy/0.24)-mercuryAge);
   }
+
+  timeLeftOnVenus() {
+    const venusAge = Math.round(this.age/0.62);
+    return (Math.round(this.lifeExpectancy/0.62)-venusAge);
+  }
 }
