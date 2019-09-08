@@ -18,4 +18,8 @@ export class AgeOnPlanet {
   ageOnMars() {
     return Math.round(this.age/1.88)
   }
+
+  ageOnJupiter() {
+    return Math.round(this.age/11.86)
+  }
 }
