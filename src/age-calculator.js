@@ -45,4 +45,9 @@ export class AgeOnPlanet {
   timeLeftOnEarth() {
     return this.lifeExpectancy-this.age;
   }
+
+  timeLeftOnMars() {
+    const marsAge = Math.round(this.age/1.88);
+    return (Math.round(this.lifeExpectancy/1.88)-marsAge)
+  }
 }
